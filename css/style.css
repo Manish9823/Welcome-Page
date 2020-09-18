@@ -1,0 +1,26 @@
+*{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+}
+body{
+       background:image-set("morning.jpg");
+       background-size:cover;
+       height:100vh;
+       width:100wh;
+       background-position:center;
+       overflow: hidden;
+}
+time{
+      overflow: hidden;
+      font-weight: bolder;
+}
+.container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size:3em;
+      color: black;
+}
